@@ -1,0 +1,27 @@
+{
+  "name": "mooxy",
+  "version": "1.0.0",
+  "description": "A simple http block bypass proxy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam1608/mooxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivam1608/mooxy/issues"
+  },
+  "homepage": "https://github.com/shivam1608/mooxy#readme",
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.0.4",
+    "@mercuryworkshop/epoxy-transport": "^2.1.8",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "express": "^4.19.2",
+    "wisp-server-node": "^1.1.3"
+  }
+}
